@@ -1,15 +1,17 @@
 //programmers
 //완주하지 못한 선수
+import java.util.stream.Stream;
 class Solution {
     public String solution(String[] participant, String[] completion) {
         String answer = "";
         for(String pa : participant){
             boolean eq = false;
             for(String co : completion){
-                if(pa.equals(co)) eq = true; 
+                if(pa.equals(co)) eq = true;
+                
             }
             if(!eq)
-            answer = pa.toString();
+                answer = pa.toString();
         }
         return answer;
     }
