@@ -1,6 +1,5 @@
 //programmers
 //완주하지 못한 선수
-import java.util.stream.Stream;
 class Solution {
     public String solution(String[] participant, String[] completion) {
         String answer = "";
