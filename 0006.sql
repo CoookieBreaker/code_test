@@ -1,0 +1,3 @@
+-- programmers
+-- SUM, MAX, MIN 최대값 구하기
+SELECT MAX(DATETIME) FROM ANIMAL_INS;
