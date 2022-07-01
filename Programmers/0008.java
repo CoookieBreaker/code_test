@@ -1,4 +1,4 @@
-//Programmers 
+//Programmers
 //직사각형 별찍기
 
 import java.util.Scanner;
