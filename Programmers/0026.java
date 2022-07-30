@@ -22,7 +22,7 @@ class Solution {
         if(max == b_cnt) list.add(2);
         if(max == c_cnt) list.add(3);
         
-        answer = new int[list.size()];
+        answer = new int[list.size()];  
         
         for(int i = 0; i < answer.length; i++){
             answer[i] = list.get(i);
