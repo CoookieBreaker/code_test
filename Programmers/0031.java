@@ -1,5 +1,5 @@
 //Programmers
-//나누어 떨어지는 숫자 배열
+//나누어 떨어지는 숫자 배열 
 import java.util.*;
 class Solution {
     public ArrayList<Integer> solution(int[] arr, int divisor) {
